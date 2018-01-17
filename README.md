@@ -4,7 +4,7 @@ Objective of these Monte Carlo codes is to simluate fluorescence emission and pr
 
 These codes have been modified from the original MC codes written by Karhtik Vishwanath, which was created to model a fluorescent lifetime in a multi-layred turbid media containing multi-fluorophores. The modified codes here have been verified against the standard MC codes and their application has been showcased in assessing the performance of a depth-resolved fluorescence spectroscopy. Further detailed explantation about how the codes work and their validation results are reported in the manuscript "Ray-Traced Monte Carlo Simulation for Fluorescence Measurement in Turbid Media", which will be available once published.    
 
-Whernever these codes are used, please cite papers below. 
+Whenever these codes are used, please cite papers below. 
 
 1. K. Vishwanath, B. W. Pogue, and M.-A. Mycek, "Quantitative fluorescence lifetime spectroscopy in turbid media: comparison of theoretical, experimental and computational methods," Physics in Medicine and Biology 47, 3387-3405 (2002).
 
