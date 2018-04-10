@@ -1,4 +1,4 @@
-# Hybrid MC simulation with geometrical ray tracing (hMC-GRT)
+# Hybrid Monte Carlo simulation with geometrical ray tracing (hMC-GRT)
 
 Objective of this Monte Carlo code is to simluate fluorescence emission and propagation in turbid media like biological tissues. In particular, the code is compatible with a commerical ray tracing software, ZEMAX (Currently, OpticsStudio). When combined with ZEMAX ray-tracing non-sequential mode, one can model a full path of excitation beam propagation, and fluorescence emission and detection through optics system (ZEMAX) and biological tissue sample (mlmf-trMC). 
 
