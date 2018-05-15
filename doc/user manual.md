@@ -36,9 +36,9 @@ col 7: intensity
 ```
 /> make time 
 ```
-    3.1. Uploaded “Makefile” was tested to compile and link the source codes using a MinGW complier (gcc, www.mingw.org) in Window 10 environment. 
+  3.1. Uploaded “Makefile” was tested to compile and link the source codes using a MinGW complier (gcc, www.mingw.org) in Window 10 environment. 
 
-    3.2. Linux environment (Ubuntu) was also tested. “Makefile” needs to be modified for a different complier option.
+  3.2. Linux environment (Ubuntu) was also tested. “Makefile” needs to be modified for a different complier option.
 
 4.  Execute the simulation - 
 ```
