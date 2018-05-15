@@ -1,6 +1,6 @@
-A User Manual for hMC-GRT v1 (04/2018)
+# A User Manual for hMC-GRT v1 (04/2018)
 
-A. ZEMAX Excitation 
+# A. ZEMAX Excitation 
 1. Using the ZEMAX non-sequential mode, build your optical model for excitation path including your sample. 
 2. Make an object of ‘Rectangular Volume’ mimicking a semi-infinite and homogenous medium of your sample and locate it as your sample position (typically z axis is an optical path direction in ZEMAX). Set up a proper refractive index of your sample. 
 3. Place the ‘Ellipse’ underneath this sample surface (relative depth: - 1e-4 mm). This Ellipse will be your detector so make sure to create this large enough to capture all the incident rays. The captured rays by this ‘Ellipse’ go through refraction (incident angle change) and this new angle will be an actual incident angle of each photon launched into a sample for Monte Carlo simulation. 
@@ -17,7 +17,7 @@ col 5: 𝛽 cosine
 col 6: 𝛾 cosine 
 col 7: intensity
 
-B. Monte Carlo Simulation (For detailed information, please refer to an original user manual of MC simulation written by Karthik Vishwanath)
+# B. Monte Carlo Simulation (For detailed information, please refer to an original user manual of MC simulation written by Karthik Vishwanath)
 1.  Edit your “filename.tissue” file for your sample’s optical properties. Change the number of photons as the same with the number of rays in A.8
 2.  Edit “trmc_2fls_globals.h” to modify the simulation options. Put the filename of the ZEMAX input (zemax_input.dat) and output array file (e.g. zemax_output.dat). Make sure the input array file name is the same as A.7
 3.  Open a terminal program and run ‘Makefile’ to build an executable file named ‘trmc_mlmf’ - /> make time 
@@ -35,7 +35,7 @@ col 7: intensity
 col 8: wavelength 
 
 
-C. ZEMAX Detection 
+# C. ZEMAX Detection 
 1. Open the “zemax_ouput.dat” in Microsoft Excel. 
 2. We need to update this file to be compatible with the ZEMAX source file format. Insert the total number of photons in the first row and first column. Insert ‘2’ in the first row and second column. ‘2’ indicates ‘cm’ unit because MC simulation used ‘cm’ unit. 
 3. Save and move this file in the folder (/Document/ZEMAX/Object/Source/Sourcefile)
