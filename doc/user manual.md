@@ -70,9 +70,9 @@
 
 3. Save and move this file in the folder (/Document/ZEMAX/Object/Source/Sourcefile).
 
-4. In ZEMAX non-sequential model where your detection model is created.  
+4. In ZEMAX non-sequential model where your detection model is created, 
 
- 4.1 Insert “Source File” object, select “Data File” and open the file saved in C.2 
+* Insert “Source File” object, select “Data File” and open the file saved in C.2 
 
  4.2 Change z-coordinate of this source file at the surface of your virtual sample, which mimics photons exiting your sample and will be a light source for ZEMAX simulation. 
 
