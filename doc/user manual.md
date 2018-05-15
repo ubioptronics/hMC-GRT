@@ -46,14 +46,16 @@ col 7: intensity
 ```
 5.  As a result of MC simulation, ‘zemax_ouput.dat’ file will be generated. This output text file contains eight columns of information per each photon exiting the surface of the sample 
 
-col 1: x coordinate
-col 2: y coordinate 
-col 3: z coordinate 
-col 4: 𝛼 cosine 
-col 5: 𝛽 cosine 
-col 6: 𝛾 cosine 
-col 7: intensity
-col 8: wavelength 
+|Column | Information |
+|:---:|:---:|
+|col 1 |  x coordinate |
+|col 2 | y coordinate  |
+|col 3 | z coordinate |
+|col 4 | 𝛼 cosine |
+|col 5 | 𝛽 cosine |
+|col 6 | 𝛾 cosine |
+|col 7 | intensity |
+|col 8 | wavelength |
 
 
 ## C. ZEMAX Detection 
