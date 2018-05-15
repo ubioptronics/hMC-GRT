@@ -40,9 +40,9 @@
 ```
 /> make time 
 ```
-  3.1. Uploaded “Makefile” was tested to compile and link the source codes using a MinGW complier (gcc, www.mingw.org) in Window 10 environment. 
+* Uploaded “Makefile” was tested to compile and link the source codes using a MinGW complier (gcc, www.mingw.org) in Window 10 environment. 
 
-  3.2. Linux environment (Ubuntu) was also tested. “Makefile” needs to be modified for a different complier option.
+* Linux environment (Ubuntu) was also tested. “Makefile” needs to be modified for a different complier option.
 
 4.  Execute the simulation. 
 ```
@@ -74,13 +74,13 @@
 
 * Insert “Source File” object, select “Data File” and open the file saved in C.2 
 
- 4.2 Change z-coordinate of this source file at the surface of your virtual sample, which mimics photons exiting your sample and will be a light source for ZEMAX simulation. 
+* Change z-coordinate of this source file at the surface of your virtual sample, which mimics photons exiting your sample and will be a light source for ZEMAX simulation. 
 
- 4.3 Change the number of Analysis Rays to total number of photons (first row first column of excel sheet)
+* Change the number of Analysis Rays to total number of photons (first row first column of excel sheet)
 
- 4.4 Change Power (Watts) to match Watts in File to make each ray 1W. 
+* Change Power (Watts) to match Watts in File to make each ray 1W. 
 
- 4.5 Put the “Detector” object at the place where your actual detector (imaging sensor or detection fiber) is located. 
+* Put the “Detector” object at the place where your actual detector (imaging sensor or detection fiber) is located. 
 
 5. Run the ZEMAX simulation (Control D).  Select Save Rays. 
 
