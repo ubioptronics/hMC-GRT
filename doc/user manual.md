@@ -1,7 +1,5 @@
 # User Manual for hMC-GRT v1 (04/2018)
 
-___
-
 ## A. ZEMAX Excitation 
 1. Using the ZEMAX non-sequential mode, build your optical model for excitation path including your sample. 
 
@@ -38,23 +36,23 @@ col 7: intensity
 
 > /> make time 
 
-  ...3.1. Uploaded “Makefile” was tested to compile and link the source codes using a MinGW complier (gcc, www.mingw.org) in Window 10 environment. 
+  ⋅⋅⋅3.1. Uploaded “Makefile” was tested to compile and link the source codes using a MinGW complier (gcc, www.mingw.org) in Window 10 environment. 
 
-  ...3.2. Linux environment (Ubuntu) was also tested. “Makefile” needs to be modified for a different complier option.
+  ⋅⋅⋅3.2. Linux environment (Ubuntu) was also tested. “Makefile” needs to be modified for a different complier option.
 
 4.  Execute the simulation - 
 > /> trmc_mlmf filename.tissue
 
 5.  As a result of MC simulation, ‘zemax_ouput.dat’ file will be generated. This output text file contains eight columns of information per each photon exiting the surface of the sample 
 
-...col 1: x coordinate
-...col 2: y coordinate 
-...col 3: z coordinate 
-...col 4: 𝛼 cosine 
-...col 5: 𝛽 cosine 
-...col 6: 𝛾 cosine 
-...col 7: intensity
-...col 8: wavelength 
+col 1: x coordinate
+col 2: y coordinate 
+col 3: z coordinate 
+col 4: 𝛼 cosine 
+col 5: 𝛽 cosine 
+col 6: 𝛾 cosine 
+col 7: intensity
+col 8: wavelength 
 
 
 ## C. ZEMAX Detection 
@@ -67,15 +65,15 @@ col 7: intensity
 
 4. In ZEMAX non-sequential model where your detection model is created,  
 
-  ...4.1 Insert “Source File” object, select “Data File” and open the file saved in C.2 
+  ⋅⋅⋅4.1 Insert “Source File” object, select “Data File” and open the file saved in C.2 
 
-  ...4.2 Change z-coordinate of this source file at the surface of your virtual sample, which mimics photons exiting your sample and will be a light source for ZEMAX simulation. 
+  ⋅⋅⋅4.2 Change z-coordinate of this source file at the surface of your virtual sample, which mimics photons exiting your sample and will be a light source for ZEMAX simulation. 
 
-  ...4.3 Change the number of Analysis Rays to total number of photons (first row first column of excel sheet)
+  ⋅⋅⋅4.3 Change the number of Analysis Rays to total number of photons (first row first column of excel sheet)
 
-  ...4.4 Change Power (Watts) to match Watts in File to make each ray 1W. 
+  ⋅⋅⋅4.4 Change Power (Watts) to match Watts in File to make each ray 1W. 
 
-  ...4.5 Put the “Detector” object at the place where your actual detector (imaging sensor or detection fiber) is located. 
+  ⋅⋅⋅4.5 Put the “Detector” object at the place where your actual detector (imaging sensor or detection fiber) is located. 
 
 5. Run the ZEMAX simulation (Control D).  Select Save Rays. 
 
