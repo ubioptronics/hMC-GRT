@@ -9,7 +9,7 @@
 
 4. To run the simulation, click Analysis > Ray Tracing > Racy Trace… (Ctrl +D). 
 
-5. In the ‘Ray Trace Control ‘window, check ‘Save Rays’. Put the filename ‘N’-filename.dat (‘N’ is an object number of ‘Ellipse’ made at the step A.2. 
+5. In the ‘Ray Trace Control ‘window, check ‘Save Rays’. Put the filename ‘N’-filename.dat (‘N’ is an object number of ‘Ellipse’ made at the step A.3. 
 
 6. Make sure that # of analysis ray is 106. (This is the maximum number)  Run the simulation. Find the resulted ‘filename.dat’ in /Document/ZEMAX/Object/Sources/Sourcefile. 
 
