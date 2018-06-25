@@ -30,7 +30,7 @@
 |col 7 | intensity |
 
 
-## B. Monte Carlo Simulation (For detailed information, please refer to an original user manual of MC simulation written by Karthik Vishwanath)
+## B. Monte Carlo Simulation (For detailed information, please refer to another manual of MC simulation)
 
 1.  Edit your “filename.tissue” file for your sample’s optical properties. Change the number of photons as the same with the number of rays in A.8.
 
